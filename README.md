@@ -4,15 +4,23 @@
 1) Install Ruby; <br>
 2) cd in to app folder within project; <br>
 3) Run server using `ruby app.rb` in above directory; <br>
-4) Navigate to `localhost:4000` in browser;
+4) Navigate to `localhost:4000/set?` in browser and enter chosen query in `key=value format`; <br>
+5) -
+
+---
 
 #### Key steps from brief:
 1) Set up Sinatra server; `COMPLETE` <br>
 2) Configure listening port to 4000; `COMPLETE` <br>
-3) Set up session to store set request in key-value; <br>
+3) Set up session to store set request in key-value; `partial COMPLETE*` <br>
 4) Pass setter in to session; <br>
 5) retrieve value from get request specified key value; <br>
 6) Set up db schema for future db integration. <br>
+
+###### Notes to above (* )
+3) used a global hash in place of session as was not working how intended, despite session being present in browser.
+
+---
 
 #### Full brief:
 
